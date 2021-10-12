@@ -11,7 +11,7 @@
     - ***SuperAdmin*** memiliki hak akses ke semua data yang berada pada database. :heavy_check_mark:
     - ***PlayerUser*** memiliki hak akses terbatas sesuai dengan cakupan pada design game :heavy_check_mark:
 7. **PlayerUser** menggunakan JWT
-8. Antara player 1 dengan player lainnya bisa bertanding di satu endpoint room dengan menyediakan endpoint pembuatan room dengan input nama kemudian server akan merespon dengan kode, sehingga 2 user bisa bermain bersama dengan room kode yang sama. :heavy_check_mark:
+8. Antara player 1 dengan player lainnya bisa bertanding di satu endpoint room dengan menyediakan endpoint pembuatan room dengan input nama kemudian server akan merespon dengan kode, sehingga 2 user bisa bermain bersama dengan room kode yang sama.
     - Player akan bermain maksimal 3 ronde
 9. Hasil dari setiap pertandingan akan di record ke database user_game_history dan list ditampilkan ke endpooint private yang bisa di akses hanya user.
     - Setelah permainan selesai skor pada game history akan bertambah
