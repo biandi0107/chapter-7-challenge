@@ -5,15 +5,16 @@
 1. Melanjutkan project yang sudah dibuat pada chapte 6
 2. Menggunakan design pattern MVC pada struktur kode yang besifat monolith :heavy_check_mark:
 3. Menggunakan design pattern MCR pada struktur kode yang bersifat JSON REST API :heavy_check_mark:
-4. Menggunakan asynchronous pada setipa function :heavy_check_mark:
-5. Menyesuaikan tabel database dengan konsep yang diinginkan
-6. Membuat tingakatan 2 tingkatan user yaitu:
+4. Mengimplementasi template engine ke project :heavy_check_mark:
+5. Menggunakan asynchronous pada setipa function :heavy_check_mark:
+6. Menyesuaikan tabel database dengan konsep yang diinginkan
+7. Membuat tingakatan 2 tingkatan user yaitu:
     - ***SuperAdmin*** memiliki hak akses ke semua data yang berada pada database. :heavy_check_mark:
     - ***PlayerUser*** memiliki hak akses terbatas sesuai dengan cakupan pada design game :heavy_check_mark:
-7. **PlayerUser** menggunakan JWT
-8. Antara player 1 dengan player lainnya bisa bertanding di satu endpoint room dengan menyediakan endpoint pembuatan room dengan input nama kemudian server akan merespon dengan kode, sehingga 2 user bisa bermain bersama dengan room kode yang sama.
+8. **PlayerUser** menggunakan JWT
+9. Antara player 1 dengan player lainnya bisa bertanding di satu endpoint room dengan menyediakan endpoint pembuatan room dengan input nama kemudian server akan merespon dengan kode, sehingga 2 user bisa bermain bersama dengan room kode yang sama.
     - Player akan bermain maksimal 3 ronde
-9. Hasil dari setiap pertandingan akan di record ke database user_game_history dan list ditampilkan ke endpooint private yang bisa di akses hanya user.
+10. Hasil dari setiap pertandingan akan di record ke database user_game_history dan list ditampilkan ke endpooint private yang bisa di akses hanya user.
     - Setelah permainan selesai skor pada game history akan bertambah
 
 ***Note:*** *point yang di centang adalah bagian tugas yang saya kerjakan* 
